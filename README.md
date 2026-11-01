@@ -30,10 +30,10 @@
 <br>
 ## 🧪 Research Code (manuscripts in preparation)
 
-| Repository | Topic | Built on |
-|---|---|---|
-| [TurboVLA-Vision-State-Towers](https://github.com/HyeonSung11/TurboVLA-Vision-State-Towers) | Visual self-attention tower (partially co-initialized from Grounding DINO) and asymmetric state tower for a lightweight, LLM-free VLA; evaluated on LIBERO and RoboTwin 2.0 with seed-variation analysis | [TurboVLA](https://github.com/H-EmbodVis/TurboVLA) |
-| [InternVLA-Latent-Foresight](https://github.com/HyeonSung11/InternVLA-Latent-Foresight) | Replacing the 5B pixel world-model loss of InternVLA-A1.5 with latent feature regression to frozen DINOv2 features for resource-efficient VLA fine-tuning | [InternVLA-A1.5](https://github.com/InternRobotics/InternVLA-A-series) |
-| [Difficulty-Aware-Visual-RL](https://github.com/HyeonSung11/Difficulty-Aware-Visual-RL) | Visual reasoning RL on 2 × RTX 4090: difficulty-aware online curriculum and analysis of format-level reward hacking | [Vero](https://github.com/zlab-princeton/vero) |
+| Year | Paper | Summary | Code |
+|---|---|---|---|
+| 2026 | **Design and Analysis of Visual Self-Attention and State Towers for a Lightweight Vision-Language-Action Model** (경량 비전-언어-행동 모델을 위한 시각 셀프 어텐션 타워와 상태 타워의 설계 및 분석) | Adds a gated visual self-attention tower, partially co-initialized from the Grounding DINO feature enhancer, and an asymmetric state tower to the LLM-free TurboVLA; five configurations compared on LIBERO and RoboTwin 2.0 with a seed-variation analysis. Built on [TurboVLA](https://github.com/H-EmbodVis/TurboVLA). | [TurboVLA-Vision-State-Towers](https://github.com/HyeonSung11/TurboVLA-Vision-State-Towers) |
+| 2026 | **Resource-Efficient Fine-Tuning of Vision-Language-Action Models by Replacing the Pixel World Model with Latent Feature Regression** (픽셀 세계모델을 잠재 특징 회귀로 대체한 비전-언어-행동 모델의 자원 효율적 미세조정) | Replaces the 5B frozen video-diffusion world-model loss of InternVLA-A1.5 with regression to frozen DINOv2 features of the future frame, cutting training memory while keeping the inference path unchanged. Built on [InternVLA-A1.5](https://github.com/InternRobotics/InternVLA-A-series). | [InternVLA-Latent-Foresight](https://github.com/HyeonSung11/InternVLA-Latent-Foresight) |
+| 2026 | **Visual Reasoning RL under Limited Resources: Difficulty-Aware Online Curriculum and Format-Level Reward Hacking** (제한된 자원 환경에서의 시각 추론 강화학습: 난이도 인지 온라인 커리큘럼과 형식 수준 보상 해킹 분석) | Runs an open visual-reasoning RL recipe (GSPO, Qwen3-VL-8B with LoRA) on 2 × RTX 4090 with a p(1 − p) difficulty-aware online curriculum, and analyzes format-level reward hacking under a small rollout budget. Built on [Vero](https://github.com/zlab-princeton/vero). | [Difficulty-Aware-Visual-RL](https://github.com/HyeonSung11/Difficulty-Aware-Visual-RL) |
 
 <br>
