@@ -8,11 +8,12 @@
         - Advisor: Prof. Jong-Eun Ha.<br><br>
         🔥Current:<br>
         - Researching VLM / VLA-based robotic planning and manipulation.<br>
-        - Injecting knowledge from frozen foundation models (depth, CLIP, DINOv2) into robot perception and planning models without changing their inference path.<br><br>
+        - Injecting knowledge from frozen foundation models (metric depth, CLIP, DINOv2/DINOv3, Grounding DINO) into robot perception, planning, and action models without changing their inference path.<br>
+        - Making VLA fine-tuning and visual reasoning RL work on a two-GPU workstation (2 × RTX 4090) instead of a datacenter cluster.<br><br>
         🎯Future:<br>
         - Resource-efficient learning for robot spatial perception, planning, and action models.<br><br>
         ⭐Keywords:<br>
-        - Vision-Language Models, Vision-Language-Action, 3D Gaussian Splatting, Robotic Manipulation, Depth Estimation.<br><br>
+        - Vision-Language Models, Vision-Language-Action, Reinforcement Learning for Visual Reasoning, World Models, 3D Gaussian Splatting, Robotic Manipulation, Depth Estimation, Resource-Efficient Training.<br><br>
         📜Notice:<br>
         - Each paper has its own repository with a short summary, figures, and result tables.<br>
     </div>
@@ -26,5 +27,14 @@
 |---|---|---|---|
 | 2026 | **ReflectVLM+: Enhancing VLM-based Robotic Planning via Quantitative Stagnation Detection and Trajectory Refinement** | *International Journal of Precision Engineering and Manufacturing* (SCIE) · [DOI](https://doi.org/10.1007/s12541-026-01548-y) | [ReflectVLM-Plus](https://github.com/HyeonSung11/ReflectVLM-Plus) |
 | 2026 | **Geometry-guided 3D Gaussian Splatting** (기하 정보 기반 3D Gaussian Splatting) | *Journal of Institute of Control, Robotics and Systems*, 32(8) · [DOI](https://doi.org/10.5302/J.ICROS.2026.26.0108) | [Geometry-Guided-3DGS](https://github.com/HyeonSung11/Geometry-Guided-3DGS) |
+
+<br>
+## 🧪 Research Code (manuscripts in preparation)
+
+| Repository | Topic | Built on |
+|---|---|---|
+| [TurboVLA-Vision-State-Towers](https://github.com/HyeonSung11/TurboVLA-Vision-State-Towers) | Visual self-attention tower (partially co-initialized from Grounding DINO) and asymmetric state tower for a lightweight, LLM-free VLA; evaluated on LIBERO and RoboTwin 2.0 with seed-variation analysis | [TurboVLA](https://github.com/H-EmbodVis/TurboVLA) |
+| [InternVLA-Latent-Foresight](https://github.com/HyeonSung11/InternVLA-Latent-Foresight) | Replacing the 5B pixel world-model loss of InternVLA-A1.5 with latent feature regression to frozen DINOv2 features for resource-efficient VLA fine-tuning | [InternVLA-A1.5](https://github.com/InternRobotics/InternVLA-A-series) |
+| [Difficulty-Aware-Visual-RL](https://github.com/HyeonSung11/Difficulty-Aware-Visual-RL) | Visual reasoning RL on 2 × RTX 4090: difficulty-aware online curriculum and analysis of format-level reward hacking | [Vero](https://github.com/zlab-princeton/vero) |
 
 <br>
