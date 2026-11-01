@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=200&text=Welcome+to+HyeonSung11's+GitHub!👋&fontAlign=50&fontAlignY=40&color=gradient&fontSize=40)
 
 <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">I...</h2>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">About Me</h2>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;">
         🎓About:<br>
         - M.S. student, Graduate School of Automotive Engineering, Seoul National University of Science and Technology (SeoulTech).<br>
