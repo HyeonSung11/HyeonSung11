@@ -11,11 +11,10 @@
         - Injecting knowledge from frozen foundation models (metric depth, CLIP, DINOv2/DINOv3, Grounding DINO) into robot perception, planning, and action models without changing their inference path.<br>
         - Making VLA fine-tuning and visual reasoning RL work on a two-GPU workstation (2 × RTX 4090) instead of a datacenter cluster.<br><br>
         🎯Future:<br>
+        - World-action models (WAMs): unifying visual world prediction and action generation in one model, and learning latent dynamics from human videos as a pretraining signal for robot policies.<br>
         - Resource-efficient learning for robot spatial perception, planning, and action models.<br><br>
         ⭐Keywords:<br>
-        - Vision-Language Models, Vision-Language-Action, Reinforcement Learning for Visual Reasoning, World Models, 3D Gaussian Splatting, Robotic Manipulation, Depth Estimation, Resource-Efficient Training.<br><br>
-        📜Notice:<br>
-        - Each paper has its own repository with a short summary, figures, and result tables.<br>
+        - Vision-Language Models, Vision-Language-Action, Reinforcement Learning for Visual Reasoning, World Models, 3D Gaussian Splatting, Robotic Manipulation, Depth Estimation, Resource-Efficient Training.<br>
     </div>
 </div>
 
